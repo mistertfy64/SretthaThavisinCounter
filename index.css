@@ -103,3 +103,12 @@ footer a {
 	justify-content: center;
 	user-select: none;
 }
+
+#faces img {
+	user-select: none;
+	pointer-events: none;
+}
+
+.footnotes {
+	font-size: 75%;
+}
