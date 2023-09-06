@@ -1,91 +1,105 @@
 body {
-  margin: 0;
-  background-color: #b51a22;
-  font-family: "Sarabun", sans-serif;
-  font-size: 100%;
-  
+	margin: 0;
+	background-color: #b51a22;
+	font-family: "Sarabun", sans-serif;
+	font-size: 100%;
 }
 
 main {
-  width: 80vw;
-  margin: auto;
-  height:100vh;
+	width: 80vw;
+	margin: auto;
+	height: 100vh;
 }
 
 main > div {
-  height: 100%;
-  display:flex; 
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
 }
 
 .text__main {
-  font-size: 200%;
-  user-select: none;
+	font-size: 200%;
+	user-select: none;
 }
 
 .text__main > h1 {
-  font-size: 200%;
-  font-weight: normal;
-  margin: initial;
-  margin: -5vh;
-  text-align: center;
+	font-size: 200%;
+	font-weight: normal;
+	margin: initial;
+	margin: -5vh;
+	text-align: center;
 }
 
 .text__sentence--main {
-  margin: -5vh;
-  text-align: center;
+	margin: -5vh;
+	text-align: center;
 }
 
 .alignment--vertical {
-  flex-direction: column;
+	flex-direction: column;
 }
 
 #counter {
-  font-size: 800%;
-  margin: -32px;
+	font-size: 800%;
+	margin: -32px;
 }
 
 .questions {
-  width: 100%;
-  font-size: 125%;
-  background-color:#7e0107;
-  color: #eeeeee;
+	width: 100%;
+	font-size: 125%;
+	background-color: #7e0107;
+	color: #eeeeee;
 }
 
 footer {
-  width: 100%;
-  font-size: 125%;
+	width: 100%;
+	font-size: 125%;
 
-  background-color:#3d0003;
-  color: #eeeeee;
+	background-color: #3d0003;
+	color: #eeeeee;
 }
 
 footer > div {
-  width: 80%;
-  margin: auto;
-  font-size: 100%;
-  background-color:#3d0003;
+	width: 80%;
+	margin: auto;
+	font-size: 100%;
+	background-color: #3d0003;
 
-  text-align: center;
-  padding: 4px 0;
+	text-align: center;
+	padding: 4px 0;
 }
 
-footer p, footer a {
-  color: #cccccc;
+footer p,
+footer a {
+	color: #cccccc;
 }
 
 .questions > div {
-  width: 80%;
-  margin: auto;
+	width: 80%;
+	margin: auto;
 }
 
 .questions h3 {
-  margin: 4px 4px 4px 0;
-  font-weight: normal;
+	margin: 4px 4px 4px 0;
+	font-weight: normal;
 }
 
 .question p {
-  margin: 4px 4px 4px 0; 
+	margin: 4px 4px 4px 0;
+}
+
+#counter {
+	opacity: 1;
+	filter: brightness(1.25);
+}
+
+#faces {
+	position: absolute;
+	opacity: 0.2;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	user-select: none;
 }
