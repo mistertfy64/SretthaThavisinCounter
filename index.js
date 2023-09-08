@@ -17,6 +17,7 @@ function createFaces(days) {
 			days -= threshold;
 			let face = document.createElement("img");
 			face.src = `./public/tpmc-srettha-${threshold}.png`;
+			face.width = 192;
 			facesHTML.appendChild(face);
 		} else {
 			faceIntervalIndex++;
@@ -25,3 +26,7 @@ function createFaces(days) {
 }
 
 createFaces(Math.floor((Date.now() - START_TIME) / DAY_TIME));
+const now = Date.now();
+const days = Math.floor((now - START_TIME) / DAY_TIME);
+const counter = document.getElementById("counter");
+counter.innerText = days;
