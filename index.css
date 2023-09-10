@@ -3,6 +3,7 @@ body {
 	background-color: #b51a22;
 	font-family: "Sarabun", sans-serif;
 	font-size: 100%;
+	overflow-x: hidden;
 }
 
 main {
@@ -98,10 +99,12 @@ footer a {
 #faces {
 	position: absolute;
 	opacity: 0.2;
-	width: 100%;
+	width: 100vw;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	user-select: none;
+	flex-wrap: wrap;
 }
 
 #faces img {
