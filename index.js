@@ -18,6 +18,7 @@ function createFaces(days) {
 			let face = document.createElement("img");
 			face.src = `./public/tpmc-srettha-${threshold}.png`;
 			face.width = 192;
+			face.height = 216;
 			facesHTML.appendChild(face);
 		} else {
 			faceIntervalIndex++;
