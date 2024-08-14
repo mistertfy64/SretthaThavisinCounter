@@ -6,7 +6,7 @@ const loop = setInterval(() => {
 }, 100);
 
 const CORRUPTED_CHARACTER_POOL =
-	"qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM";
+	"qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM!#$%&'*+/=?^_`{|}~.-";
 
 function createFaces(days) {
 	// const facesHTML = document.getElementById("faces");
