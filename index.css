@@ -117,3 +117,16 @@ footer a {
 .footnotes {
 	font-size: 75%;
 }
+
+#halted {
+	background-color: #ffffff;
+	color: #b51a22;
+	font-family: "Sarabun", sans-serif;
+	font-size: 800%;
+	margin: 32px;
+}
+
+.highlighted--halted {
+	background-color: #ffffff;
+	color: #b51a22;
+}
